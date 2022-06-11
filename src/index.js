@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Button from './components/button';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-    <App/>,
+    <Button onClick={() => console.log('Click me')} />,
     document.getElementById('root')
 );
 registerServiceWorker();

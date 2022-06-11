@@ -2,4 +2,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+p {
+  font-size: 37px;
+}
+
+.btn {
+  padding: 2px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
 }
